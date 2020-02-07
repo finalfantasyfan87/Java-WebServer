@@ -24,11 +24,22 @@ class WorkerServer extends Thread {
             StringTokenizer parser = new StringTokenizer(requestString," ");
             String httpMethod = parser.nextToken();
             filePath = parser.nextToken();
-
+            completeHttpRequest(httpMethod);
         } catch (IOException e) {
             e.printStackTrace();
         }
 
+    }
+
+    private void completeHttpRequest(String httpMethod) {
+        switch (httpMethod){
+            case"GET":
+                break;
+            case "POST":
+                break;
+            default:
+                break;
+        }
     }
 
     public String getFileExtension(String fileName) {
