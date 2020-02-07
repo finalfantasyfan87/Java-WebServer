@@ -20,8 +20,11 @@ class WorkerServer extends Thread {
             BufferedReader request = new BufferedReader(new InputStreamReader(client.getInputStream()));
             PrintStream response = new PrintStream(client.getOutputStream());
             String requestString = request.readLine();
-            String fileName = "";
-            StringTokenizer parser = new StringTokenizer(requestString);
+            String filePath = "";
+            StringTokenizer parser = new StringTokenizer(requestString," ");
+            String httpMethod = parser.nextToken();
+            filePath = parser.nextToken();
+
         } catch (IOException e) {
             e.printStackTrace();
         }
