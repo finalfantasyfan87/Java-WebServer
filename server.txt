@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-02-09T23:10:56</date>
+  <millis>1581311456275</millis>
+  <sequence>0</sequence>
+  <logger>ServerWorker</logger>
+  <level>INFO</level>
+  <class>ServerWorker</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>Requested File /</message>
+</record>
+<record>
+  <date>2020-02-09T23:10:56</date>
+  <millis>1581311456286</millis>
+  <sequence>1</sequence>
+  <logger>ServerWorker</logger>
+  <level>INFO</level>
+  <class>ServerWorker</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>The file extension is:  </message>
+</record>
+<record>
+  <date>2020-02-09T23:10:56</date>
+  <millis>1581311456287</millis>
+  <sequence>2</sequence>
+  <logger>ServerWorker</logger>
+  <level>INFO</level>
+  <class>ServerWorker</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>File content type is  text/plain</message>
+</record>
+<record>
+  <date>2020-02-09T23:11:29</date>
+  <millis>1581311489613</millis>
+  <sequence>3</sequence>
+  <logger>ServerWorker</logger>
+  <level>INFO</level>
+  <class>ServerWorker</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>Requested File /WebServer.java</message>
+</record>
+<record>
+  <date>2020-02-09T23:11:29</date>
+  <millis>1581311489615</millis>
+  <sequence>4</sequence>
+  <logger>ServerWorker</logger>
+  <level>INFO</level>
+  <class>ServerWorker</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>The file extension is:  java</message>
+</record>
+<record>
+  <date>2020-02-09T23:11:29</date>
+  <millis>1581311489616</millis>
+  <sequence>5</sequence>
+  <logger>ServerWorker</logger>
+  <level>INFO</level>
+  <class>ServerWorker</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>File content type is  text/plain</message>
+</record>
+</log>
